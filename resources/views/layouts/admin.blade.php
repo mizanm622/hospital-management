@@ -49,7 +49,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="{{route('dashboard')}}" class="site_title"><img src="{{asset('assets/images/logo.png')}}" alt="Logo" width="50" height="50" class="rounded-circle"> <span>Firoz Enterprise</span></a>
+             <a href="{{route('dashboard')}}" class="site_title"> {{-- <img src="{{asset('assets/images/logo.png')}}" alt="Logo" width="50" height="50" class="rounded-circle"> --}}<span>Hospital Management</span></a> 
             </div>
 
             <div class="clearfix"></div>
