@@ -33,4 +33,8 @@ Route::get('permisssion','App\Http\Controllers\HomeController@index');
 
 Route::get('/brand', App\Livewire\Brand\Index::class)->name('brand');
 
+Route::get('/test', App\Livewire\Category\TestMedical\Index::class)->name('test');
+
+Route::get('/subtest', App\Livewire\Subcategory\TestMedical\Index::class)->name('subtest');
+
 //Route::get('/counter', Counter::class);

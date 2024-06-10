@@ -144,8 +144,8 @@
 
         <li><a><i class="fa fa-home"></i> Additional Add <span class="fa fa-chevron-down"></span></a>
             <ul class="nav child_menu">
-              <li><a href="#">Category (Test Medical)</a></li>
-              <li><a href="#">Sub-category (Test Medical)</a></li>
+              <li><a href="{{route('test')}}">Category (Test Medical)</a></li>
+              <li><a href="{{route('subtest')}}">Sub-category (Test Medical)</a></li>
               <li><a href="{{route('brand')}}">Brand</a></li>
               <li><a href="#">Price Group</a></li>
               <li><a href="#">Bank</a></li>
